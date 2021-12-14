@@ -1,9 +1,12 @@
 import time
 import asyncio
 import threading
+"""
+Synchronization of threading
+"""
 
 def timeout():
-    print("1st timeout is started")
+    print("1st timeout is started again")
     time.sleep(5)
     print("1st timeout is finished")
 
